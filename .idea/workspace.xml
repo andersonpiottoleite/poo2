@@ -4,31 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4bd766e-90d1-48f9-abe7-b68a6a2c3158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO2-turma.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/comparacao/heranca/interf/Classe1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/comparacao/heranca/interf/Classe2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/comparacao/heranca/interf/Classe3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/comparacao/heranca/interf/Interface1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/comparacao/heranca/interf/Interface2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/comparacao/heranca/interf/Interface3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/exception/TesteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/exemploclosable/ClasseComClosable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/exemploclosable/ClasseSemClosable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/Carrinho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/Impressora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/Somadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/TesteComObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/TesteGenerics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/TesteGenericsComoCriterioInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/TesteTempoCompilacao.java" afterDir="false" />
+    <list default="true" id="f4bd766e-90d1-48f9-abe7-b68a6a2c3158" name="Changes" comment="codigo das aulas anteriores">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/Bicicleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/GerenciadorLocacoesVeiculos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/Secretaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/TesteLocacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/Carrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/TesteGenericsComoCriterioInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/TesteGenericsComoCriterioInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,23 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.letscode.bb.generics.exercicio.locadora" />
       <recent name="br.com.letscode.bb.exemploclosable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteGenericsComoCriterioInterface">
+  <component name="RunManager" selected="Application.br.com.letscode.bb.generics.exercicio.locadora.TesteLocacoes">
     <configuration name="TesteException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.exception.TesteException" />
       <module name="POO2-turma" />
@@ -87,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="br.com.letscode.bb.generics.TesteGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.generics.TesteGenerics" />
       <module name="POO2-turma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.generics.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.generics.exercicio.locadora.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteGenericsComoCriterioInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="br.com.letscode.bb.generics.TesteGenericsComoCriterioInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.generics.TesteGenericsComoCriterioInterface" />
       <module name="POO2-turma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.generics.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.generics.exercicio.locadora.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteTempoCompilacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="br.com.letscode.bb.generics.TesteTempoCompilacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.generics.TesteTempoCompilacao" />
       <module name="POO2-turma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.generics.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.generics.exercicio.locadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.letscode.bb.generics.exercicio.locadora.TesteLocacoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.generics.exercicio.locadora.TesteLocacoes" />
+      <module name="POO2-turma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.letscode.bb.generics.exercicio.locadora.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,9 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteGenericsComoCriterioInterface" />
-        <item itemvalue="Application.TesteTempoCompilacao" />
-        <item itemvalue="Application.TesteGenerics" />
+        <item itemvalue="Application.br.com.letscode.bb.generics.exercicio.locadora.TesteLocacoes" />
+        <item itemvalue="Application.br.com.letscode.bb.generics.TesteGenericsComoCriterioInterface" />
+        <item itemvalue="Application.br.com.letscode.bb.generics.TesteTempoCompilacao" />
+        <item itemvalue="Application.br.com.letscode.bb.generics.TesteGenerics" />
         <item itemvalue="Application.TesteException" />
       </list>
     </recent_temporary>
@@ -146,8 +149,16 @@
       <workItem from="1659377616416" duration="9403000" />
       <workItem from="1659461683322" duration="1263000" />
       <workItem from="1659539515145" duration="597000" />
-      <workItem from="1659549534007" duration="3785000" />
+      <workItem from="1659549534007" duration="9182000" />
     </task>
+    <task id="LOCAL-00001" summary="codigo das aulas anteriores">
+      <created>1659553589038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659553589038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +174,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="codigo das aulas anteriores" />
+    <option name="LAST_COMMIT_MESSAGE" value="codigo das aulas anteriores" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,4 +1,6 @@
 package br.com.letscode.bb.generics;
 
-public class Carrinho extends Carro{
+import br.com.letscode.bb.generics.exercicio.locadora.Carro;
+
+public class Carrinho extends Carro {
 }

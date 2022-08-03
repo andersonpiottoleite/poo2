@@ -1,7 +1,8 @@
-package br.com.letscode.bb.generics;
+package br.com.letscode.bb.generics.exercicio.locadora;
 
-public class Carro implements Comparable<Carro>{
+public class Carro extends Veiculo implements Comparable<Carro>{
 
+    private String marca;
     private String nome;
     private int velocidadeMaxima;
 
@@ -21,10 +22,19 @@ public class Carro implements Comparable<Carro>{
         this.velocidadeMaxima = velocidadeMaxima;
     }
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
     @Override
     public String toString() {
         return "Carro{" +
-                "nome='" + nome + '\'' +
+                "marca='" + marca + '\'' +
+                ", nome='" + nome + '\'' +
                 ", velocidadeMaxima=" + velocidadeMaxima +
                 '}';
     }
