@@ -5,11 +5,6 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class Funcionario {
-
-    //OCP:
-    // Fechadas para alterações
-    // Abertas para extensões
-
     private String nome;
     private String matricula;
 

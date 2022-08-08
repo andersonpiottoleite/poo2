@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4bd766e-90d1-48f9-abe7-b68a6a2c3158" name="Changes" comment="codigo das aulas anteriores">
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/cartoes/Cartao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/cartoes/CartaoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/cartoes/LimiteInvalidoEception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/cartoes/TesteAjusteLimite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/cartoes/TipoCartoesEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/Atendente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/Coordenador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/SalarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/Supervisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/TesteReajusteSalario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/cliente/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/cliente/ClienteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/cliente/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/cliente/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/cliente/TesteCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ConversorHTML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ConversorJSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ConversorMensagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ConversorText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ConversorXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/FormatoEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/Mensagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/MensagemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/TesteMensagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ValidadorMensagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/Funcionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +154,7 @@
       <workItem from="1659549534007" duration="9231000" />
       <workItem from="1659668156003" duration="8283000" />
       <workItem from="1659722745626" duration="14644000" />
-      <workItem from="1659936277109" duration="11147000" />
+      <workItem from="1659936277109" duration="11388000" />
     </task>
     <task id="LOCAL-00001" summary="codigo das aulas anteriores">
       <created>1659553589038</created>
@@ -197,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659561519550</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="codigo das aulas anteriores">
+      <created>1659987278396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659987278396</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
