@@ -5,17 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4bd766e-90d1-48f9-abe7-b68a6a2c3158" name="Changes" comment="codigo das aulas anteriores">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/Bicicleta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/GerenciadorLocacoesVeiculos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/Moto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/Secretaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/TesteLocacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/cartoes/Cartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/cartoes/CartaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/cartoes/LimiteInvalidoEception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/cartoes/TesteAjusteLimite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/cartoes/TipoCartoesEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/Atendente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/Coordenador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/SalarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/Supervisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/TesteReajusteSalario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/cliente/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/cliente/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/cliente/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/cliente/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/cliente/TesteCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ConversorHTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ConversorJSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ConversorMensagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ConversorText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ConversorXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/FormatoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/Mensagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/MensagemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/TesteMensagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/mensagens/ValidadorMensagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/Carrinho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/exercicio/locadora/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/TesteGenericsComoCriterioInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/generics/TesteGenericsComoCriterioInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -50,25 +68,36 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/develop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37356323"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.letscode.bb.solid.srp.mensagens" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrador\IdeaProjects\biblioteca\POO2-turma\src\br\com\letscode\bb\solid\srp\solucao" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.letscode.bb.solid.srp.solucao" />
       <recent name="br.com.letscode.bb.generics.exercicio.locadora" />
       <recent name="br.com.letscode.bb.exemploclosable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.br.com.letscode.bb.generics.exercicio.locadora.TesteLocacoes">
-    <configuration name="TesteException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.exception.TesteException" />
+  <component name="RunManager" selected="Application.br.com.letscode.bb.solid.srp.mensagens.TesteMensagem">
+    <configuration name="TesteMensagem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.solid.srp.solucao.TesteMensagem" />
       <module name="POO2-turma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.exception.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.solid.srp.solucao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.letscode.bb.generics.TesteGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.generics.TesteGenerics" />
+    <configuration name="TesteReajusteSalario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.solid.ocp.callcenter.funcionarios.TesteReajusteSalario" />
       <module name="POO2-turma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.generics.exercicio.locadora.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.solid.ocp.callcenter.funcionarios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.letscode.bb.generics.TesteGenericsComoCriterioInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.generics.TesteGenericsComoCriterioInterface" />
+    <configuration name="br.com.letscode.bb.solid.ocp.callcenter.cartoes.TesteAjusteLimite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.solid.ocp.callcenter.cartoes.TesteAjusteLimite" />
       <module name="POO2-turma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.generics.exercicio.locadora.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.solid.ocp.callcenter.funcionarios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.letscode.bb.generics.TesteTempoCompilacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.generics.TesteTempoCompilacao" />
+    <configuration name="br.com.letscode.bb.solid.srp.cliente.TesteCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.solid.srp.cliente.TesteCliente" />
       <module name="POO2-turma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.generics.exercicio.locadora.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.solid.srp.solucao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.letscode.bb.generics.exercicio.locadora.TesteLocacoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.generics.exercicio.locadora.TesteLocacoes" />
+    <configuration name="br.com.letscode.bb.solid.srp.mensagens.TesteMensagem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.solid.srp.mensagens.TesteMensagem" />
       <module name="POO2-turma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.generics.exercicio.locadora.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.solid.srp.solucao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.br.com.letscode.bb.generics.exercicio.locadora.TesteLocacoes" />
-        <item itemvalue="Application.br.com.letscode.bb.generics.TesteGenericsComoCriterioInterface" />
-        <item itemvalue="Application.br.com.letscode.bb.generics.TesteTempoCompilacao" />
-        <item itemvalue="Application.br.com.letscode.bb.generics.TesteGenerics" />
-        <item itemvalue="Application.TesteException" />
+        <item itemvalue="Application.br.com.letscode.bb.solid.srp.mensagens.TesteMensagem" />
+        <item itemvalue="Application.br.com.letscode.bb.solid.ocp.funcionarios.TesteReajusteSalario" />
+        <item itemvalue="Application.br.com.letscode.bb.solid.ocp.callcenter.cartoes.TesteAjusteLimite" />
+        <item itemvalue="Application.TesteMensagem" />
+        <item itemvalue="Application.br.com.letscode.bb.solid.srp.cliente.TesteCliente" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +178,10 @@
       <workItem from="1659377616416" duration="9403000" />
       <workItem from="1659461683322" duration="1263000" />
       <workItem from="1659539515145" duration="597000" />
-      <workItem from="1659549534007" duration="9182000" />
+      <workItem from="1659549534007" duration="9231000" />
+      <workItem from="1659668156003" duration="8283000" />
+      <workItem from="1659722745626" duration="14644000" />
+      <workItem from="1659936277109" duration="11147000" />
     </task>
     <task id="LOCAL-00001" summary="codigo das aulas anteriores">
       <created>1659553589038</created>
@@ -158,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659553589038</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="codigo das aulas anteriores">
+      <created>1659561519550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659561519550</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +225,31 @@
           <url>file://$PROJECT_DIR$/src/br/com/letscode/bb/exception/TesteException.java</url>
           <line>15</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/solucao/MensagemService.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/solucao/MensagemService.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/letscode/bb/solid/srp/solucao/ConversorMensagem.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/SalarioService.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/letscode/bb/solid/ocp/callcenter/funcionarios/TesteReajusteSalario.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
