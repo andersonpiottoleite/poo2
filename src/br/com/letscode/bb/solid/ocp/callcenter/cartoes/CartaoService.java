@@ -11,7 +11,7 @@ public class CartaoService {
             if (limitePermitido) {
                 cartao.setLimite(novoLimite);
             } else {
-                throw new LimiteInvalidoEception("Limite excede o permitido para OURO");
+                throw new LimiteInvalidoException("Limite excede o permitido para OURO");
             }
 
         } else if (TipoCartoesEnum.PLATINUM.equals(cartao.getTipoCartao())){
@@ -20,7 +20,7 @@ public class CartaoService {
             if (limitePermitido) {
                 cartao.setLimite(novoLimite);
             } else {
-                throw new LimiteInvalidoEception("Limite excede o permitido para PLATINUM");
+                throw new LimiteInvalidoException("Limite excede o permitido para PLATINUM");
             }
 
         } else if (TipoCartoesEnum.BLACK.equals(cartao.getTipoCartao())){
@@ -29,9 +29,13 @@ public class CartaoService {
             if (limitePermitido) {
                 cartao.setLimite(novoLimite);
             } else {
-                throw new LimiteInvalidoEception("Limite excede o permitido para BLACK");
+                throw new LimiteInvalidoException("Limite excede o permitido para BLACK");
             }
 
         }
+    }
+
+    public void ajustaLimite(Cartao cartao, BigDecimal novoLimite, AjustadorLimiteCartao ajustadorLimiteCartao){
+        ajustadorLimiteCartao.ajustaLimite(cartao,novoLimite);
     }
 }

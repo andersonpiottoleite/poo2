@@ -10,7 +10,7 @@ public class Mensagem {
     private String conteudo;
     private String formato;
 
-    public FormatoEnum formatoEnum;
+   // public FormatoEnum formatoEnum;
     public String getRemetente() {
         return remetente;
     }
@@ -43,11 +43,11 @@ public class Mensagem {
         this.conteudo = conteudo;
     }
 
-    public String getFormato() {
+    /*public String getFormato() {
         return formato;
-    }
+    }*/
 
-    public void setFormato(String formato) {
+    /*public void setFormato(String formato) {
         this.formato = formato;
-    }
+    }*/
 }

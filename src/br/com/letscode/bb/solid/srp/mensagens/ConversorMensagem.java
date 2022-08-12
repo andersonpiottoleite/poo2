@@ -1,8 +1,10 @@
 package br.com.letscode.bb.solid.srp.mensagens;
 
+import br.com.letscode.bb.solid.srp.mensagens.ocp.conversores.Conversor;
+
 public class ConversorMensagem {
 
-    public String converte(Mensagem mensagem){
+    /*public String converte(Mensagem mensagem){
 
         StringBuilder formater = new StringBuilder();
 
@@ -21,5 +23,9 @@ public class ConversorMensagem {
 
         return formater.toString();
 
+    }*/
+
+    public String converte(Mensagem mensagem, Conversor conversor){
+        return conversor.converte(mensagem);
     }
 }

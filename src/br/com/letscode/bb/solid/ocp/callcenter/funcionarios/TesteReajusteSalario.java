@@ -20,9 +20,17 @@ public class TesteReajusteSalario {
         coordenador.setSalario(new BigDecimal(6000));
 
         SalarioService salarioService = new SalarioService();
-        salarioService.reajusteAnualSalario(atendente);
+        /*salarioService.reajusteAnualSalario(atendente);
         salarioService.reajusteAnualSalario(supervisor);
         salarioService.reajusteAnualSalario(coordenador);
+
+        System.out.println(atendente);
+        System.out.println(supervisor);
+        System.out.println(coordenador);*/
+
+        salarioService.reajusteAnualSalario(atendente, new ReajustadorLimiteSalarioAnualAtendente());
+        salarioService.reajusteAnualSalario(supervisor, new ReajustadorLimiteSalarioAnualSupervisor());
+        salarioService.reajusteAnualSalario(coordenador, new ReajustadorLimiteSalarioAnualCoordenador());
 
         System.out.println(atendente);
         System.out.println(supervisor);

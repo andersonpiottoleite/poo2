@@ -13,9 +13,13 @@ public class TesteAjusteLimite {
 
         CartaoService cartaoService = new CartaoService();
 
-        cartaoService.ajustaLimite(cartaoOuro, new BigDecimal(5000));
-        cartaoService.ajustaLimite(cartaoPlatinum, new BigDecimal(10000));
-        cartaoService.ajustaLimite(cartaoBlack, new BigDecimal(15000));
+        //cartaoService.ajustaLimite(cartaoOuro, new BigDecimal(5000));
+        //cartaoService.ajustaLimite(cartaoPlatinum, new BigDecimal(10000));
+        //cartaoService.ajustaLimite(cartaoBlack, new BigDecimal(15000));
+
+        cartaoService.ajustaLimite(cartaoOuro, new BigDecimal(5000), new AjustadorLimiteCartaoOuro());
+        cartaoService.ajustaLimite(cartaoPlatinum, new BigDecimal(10000), new AjustadorLimiteCartaoPlatinum());
+        cartaoService.ajustaLimite(cartaoBlack, new BigDecimal(15000), new AjustadorLimiteCartaoBlack());
 
         System.out.println(cartaoOuro);
         System.out.println(cartaoPlatinum);

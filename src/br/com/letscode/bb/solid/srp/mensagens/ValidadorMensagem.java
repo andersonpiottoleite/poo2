@@ -21,9 +21,9 @@ public class ValidadorMensagem {
             return false;
         }
 
-        if (Objects.isNull(mensagem.getFormato()) || mensagem.getFormato().isEmpty()){
+        /*if (Objects.isNull(mensagem.getFormato()) || mensagem.getFormato().isEmpty()){
             return false;
-        }
+        }*/
 
         return true;
     }

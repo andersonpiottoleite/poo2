@@ -4,10 +4,9 @@ import java.math.BigDecimal;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-public class Funcionario {
+public abstract class Funcionario {
     private String nome;
     private String matricula;
-
     private BigDecimal salario;
 
     public String getNome() {

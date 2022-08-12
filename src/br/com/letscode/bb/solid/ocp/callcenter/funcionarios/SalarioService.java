@@ -19,6 +19,9 @@ public class SalarioService {
             funcionario.setSalario(
                     salario.add(salario.multiply(new BigDecimal(0.10))));
         }
+    }
 
+    public void reajusteAnualSalario(Funcionario funcionario, ReajustadorLimiteSalarioAnual reajustadorLimiteSalarioAnual){
+        reajustadorLimiteSalarioAnual.reajusteAnualSalario(funcionario);
     }
 }
