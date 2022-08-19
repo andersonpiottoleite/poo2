@@ -5,14 +5,15 @@ import java.sql.SQLException;
 public class UsuarioRepository {
 
 
-    private ConnectionFactoryOracleDataBase connectionFactoryOracleDataBase;
+    private ConnectionFactoryDataBase connectionFactoryDataBase;
 
-    public UsuarioRepository(){
-        connectionFactoryOracleDataBase = new ConnectionFactoryOracleDataBase();
+    // IC inverse of Control
+    public UsuarioRepository(ConnectionFactoryDataBase connectionFactoryDataBase){
+        this.connectionFactoryDataBase = connectionFactoryDataBase;
     }
 
     public void save(Usuario usuario) throws SQLException {
-        Conexao conexao = connectionFactoryOracleDataBase.getConnection();
+        Conexao conexao = connectionFactoryDataBase.getConnection();
         conexao.save(usuario);
     }
 }

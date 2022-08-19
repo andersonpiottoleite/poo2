@@ -13,6 +13,6 @@ public class Conexao {
     }
 
     public <T> void save(T t){
-        System.out.println("Salvando entidade: "+ t);
+        System.out.println("[Conexao]: Salvando entidade: "+ t);
     }
 }

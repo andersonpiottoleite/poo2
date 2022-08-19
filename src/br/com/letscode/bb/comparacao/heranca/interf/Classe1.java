@@ -11,3 +11,8 @@ public class Classe1 extends Classe2 implements Interface1, Interface3{
 
     }
 }
+
+
+
+
+
